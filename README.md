@@ -29,4 +29,4 @@ This project implements a microservices architecture using Spring Boot, consisti
 
 ## Conclusion
 
-This project demonstrates the implementation of a microservices architecture using Spring Boot, emphasizing communication between services via RESTful APIs. It showcases developing, and testing microservices, ensuring scalability, reliability, and maintainability of the system.
+This project demonstrates the implementation of a microservices architecture using Spring Boot, emphasizing communication between services via RESTful APIs. It showcases developing and testing microservices, ensuring scalability, reliability, and maintainability of the system.
