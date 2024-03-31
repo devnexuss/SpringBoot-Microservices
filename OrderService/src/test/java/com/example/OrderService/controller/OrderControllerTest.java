@@ -45,6 +45,7 @@ class OrderControllerTest {
                 .andExpect(status().isOk());
     }
 
+    // Test case for orderBook method if book exists
     @Test
     void orderBookByTitleShouldReturnBookDetailsAndMessage() throws Exception {
         // Define the book title for the test
@@ -56,6 +57,7 @@ class OrderControllerTest {
                 .andExpect(MockMvcResultMatchers.status().isOk());
     }
 
+    // Test case for orderBook method if book does not exist
     @Test
     void orderBookByTitleShouldReturnNotFoundWhenBookNotFound() throws Exception {
         // Mock the behavior of the OrderService to return a ResponseEntity with status NOT_FOUND and message "Book not found"
